@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/firstFrag"
+        android:title="@string/first"
+        android:icon="@drawable/baseline_alarm_24"
+        />
+    <item android:id="@+id/secondFrag"
+        android:title="@string/second"
+        android:icon="@drawable/baseline_alarm_off_24"
+        />
+    <item android:id="@+id/thirdFrag"
+        android:title="@string/third"
+        android:icon="@drawable/baseline_alarm_add_24"
+        />
+    <item android:id="@+id/fourthFrag"
+        android:title="@string/fourth"
+        android:icon="@drawable/baseline_alarm_on_24"
+        />
+</menu>
