@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigator"
+    app:startDestination="@id/firstFrag">
+
+    <fragment
+        android:id="@+id/firstFrag"
+        android:name="com.carpa.simplebottomnav_kotlin.FirstFrag"
+        android:label="first_fragment"
+        tools:layout="@layout/fragment_first" />
+    <fragment
+        android:id="@+id/secondFrag"
+        android:name="com.carpa.simplebottomnav_kotlin.SecondFrag"
+        android:label="fragment_second"
+        tools:layout="@layout/fragment_second" />
+    <fragment
+        android:id="@+id/thirdFrag"
+        android:name="com.carpa.simplebottomnav_kotlin.ThirdFrag"
+        android:label="fragment_third"
+        tools:layout="@layout/fragment_third" />
+    <fragment
+        android:id="@+id/fourthFrag"
+        android:name="com.carpa.simplebottomnav_kotlin.FourthFrag"
+        android:label="fragment_fourth"
+        tools:layout="@layout/fragment_fourth" />
+</navigation>

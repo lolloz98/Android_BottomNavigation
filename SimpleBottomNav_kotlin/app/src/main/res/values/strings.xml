@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SimpleBottomNav_kotlin</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fourth">Fourth</string>
+    <string name="third">Third</string>
+    <string name="second">Second</string>
+    <string name="first">First</string>
+    <string name="first_fragment">First Fragment</string>
+    <string name="fourth_fragment">Fourth Fragment</string>
+    <string name="second_fragment">Second Fragment</string>
+    <string name="third_fragment">Third Fragment</string>
+</resources>
