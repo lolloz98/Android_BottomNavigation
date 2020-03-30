@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+
     <fragment
         android:id="@+id/nav_host_fragment"
         android:name="androidx.navigation.fragment.NavHostFragment"
@@ -14,7 +15,6 @@
         app:layout_constraintBottom_toTopOf="@+id/bottom_nav_view"
         app:layout_constraintTop_toTopOf="parent"
         app:navGraph="@navigation/navigator" />
-
     <com.google.android.material.bottomnavigation.BottomNavigationView
         app:itemTextColor="@android:color/black"
         android:layout_width="match_parent"
